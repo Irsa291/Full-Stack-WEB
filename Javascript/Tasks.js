@@ -49,4 +49,64 @@ if(marks>=90)
     console.log('Grade "C" ')
 }else {console.log(' "Fail" ')}
 
-console.log('Loops are remaining')
+console.log('------LOOPS-------')
+console.log('Task 6-------!')
+
+for(let c=1; c<=10;c++){
+    console.log(c);
+}
+console.log('Task 7-------!')
+for(let d=1; d<=10; d++){
+    console.log('5*'+d);
+}
+console.log('Task 8-------!')
+for(let e=2; e<=20; e+=2){
+    console.log(e);
+}
+console.log('Task 9-------!')
+let sum=0;
+for(let f=1; f<=50; f++){
+    sum+=f;
+}
+console.log("The sum of 1 to 50 = "+sum)
+console.log('Task 10-------!')
+function grademarks(marks){
+    if(marks>=90){console.log("A")}
+    else if(marks>=80 && marks<=90){console.log("B")}
+    else if(marks>=70 && marks<=79){console.log("C")}
+else{console.log("Fail")}
+}
+grademarks(95)
+grademarks(85)
+grademarks(75)
+grademarks(60)
+console.log('Task 11-------!')
+function checknum(number){
+    if(number>0){
+        console.log("Positive") }
+        else if(number<0){
+            console.log("Negative")}
+            else {console.log("Zero")}
+}
+checknum(-9)
+checknum(10)
+checknum(0)
+
+console.log('Task 12-------!')
+function leapyear(year){
+if (year%400===0){
+    console.log("True")
+}else if(year%4===4 && year%100!==9){
+    console.log("True")
+}else {console.log("False")}
+}
+leapyear(2000)
+leapyear(1990)
+console.log('Task 13-------!')
+function eligibility(age){
+    if(age>=18){
+        console.log("Eligible to vote")
+    } else{ console.log("Not eligible to vote")}
+}
+eligibility(34)
+eligibility(10)
